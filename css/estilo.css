@@ -1,0 +1,58 @@
+.header{
+	background-color: #374458;	
+}
+.title{
+	color: white;
+	font-size: 200%;
+}
+.subtitle{
+	color: #4E8CC7;
+	font-size: 150%;
+}
+.extract{
+	color: white;
+	font-size: 80%
+}
+.info {
+    background-color: #2B343F;
+    color: white;
+    font-size: 85%;
+}
+.imgredonda{
+	border-radius: 50%;
+	border: 5px solid #4F90CD;
+}
+a{
+	color: white;
+}
+.seccion{
+	color: #4F90CD;
+}
+.empresas{
+	color: black;
+}
+
+.lateral{
+	padding-left: 10%;
+}
+
+
+progress[value] {
+/* Eliminamos la apariencia por defecto */
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+/* Quitamos el borde que aparece en Firefox */
+border: none;
+
+/* Aplicamos las dimensiones */
+width: 250px;
+height: 20px;
+
+/* Aplicamos color a la barra */
+color: #4F90CD;
+}
+
+/* Compatibilidad de color en Firefox y Chrome */
+progress::-moz-progress-bar { background: #0063a6; }
+progress::-webkit-progress-value { background: #0063a6; }
