@@ -1,58 +1,63 @@
-.header{
-	background-color: #374458;	
+/*Menu*/
+.titulo{
+	font-size: 1.5rem;
 }
-.title{
+/**Inicio*/
+.Inicio{
+	background:url(../img/background-inicio-sm.png);
+	background-size: cover;
+	height: 40vh;
+	overflow: hidden;
+}
+
+.texto-bienvenidos{
+	margin-top: 12rem;
 	color: white;
-	font-size: 200%;
+    background-color: rgba(0, 0, 0, 0.24);	
 }
-.subtitle{
-	color: #4E8CC7;
-	font-size: 150%;
+/*Experiencia*/
+.experiencia{
+	background-color:#AEC9ED; 
 }
-.extract{
+
+.experiencia a{
+	display: block;
+	overflow: hidden;
+
+}
+
+.experiencia img{
+	background-color: white;
+	margin-bottom: 1rem;		
+			
+}
+
+/*Skils*/
+
+/*Contacto*/
+
+.contacto{
+	background-color:#51A991; 
+}
+
+/*footer*/
+.pie{
+	background-color: #000000;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%239a5bff' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");			
 	color: white;
-	font-size: 80%
-}
-.info {
-    background-color: #2B343F;
-    color: white;
-    font-size: 85%;
-}
-.imgredonda{
-	border-radius: 50%;
-	border: 5px solid #4F90CD;
-}
-a{
-	color: white;
-}
-.seccion{
-	color: #4F90CD;
-}
-.empresas{
-	color: black;
 }
 
-.lateral{
-	padding-left: 10%;
+.pie a{
+	color: white;	
+}
+.pie i{
+	font-size: 2rem;
 }
 
 
-progress[value] {
-/* Eliminamos la apariencia por defecto */
--webkit-appearance: none;
--moz-appearance: none;
-appearance: none;
-/* Quitamos el borde que aparece en Firefox */
-border: none;
-
-/* Aplicamos las dimensiones */
-width: 250px;
-height: 20px;
-
-/* Aplicamos color a la barra */
-color: #4F90CD;
+.mid{
+	background:url(../img/contact-sm.jpg);
+	background-size: cover;
+	height: 40vh;
+	overflow: hidden;
 }
-
-/* Compatibilidad de color en Firefox y Chrome */
-progress::-moz-progress-bar { background: #0063a6; }
-progress::-webkit-progress-value { background: #0063a6; }
